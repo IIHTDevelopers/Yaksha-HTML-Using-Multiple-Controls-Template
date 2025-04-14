@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Controls</title>
+</head>
+<body>
+
+    <h1>Multiple Form Controls</h1>
+
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
